@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script>L_PREFER_CANVAS = false; L_NO_TOUCH = false; L_DISABLE_3D = false;</script>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css" />
+    <link rel="stylesheet" href="https://rawgit.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css" />
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <style> #map_8b3de9a0c5b94c73a3930069e3ac38e6 {
+                position : relative;
+                width : 100.0%;
+                height: 100.0%;
+                left: 0.0%;
+                top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_8b3de9a0c5b94c73a3930069e3ac38e6" ></div>
+        
+</body>
+<script>    
+    
+
+            
+                var bounds = null;
+            
+
+            var map_8b3de9a0c5b94c73a3930069e3ac38e6 = L.map(
+                                  'map_8b3de9a0c5b94c73a3930069e3ac38e6',
+                                  {center: [0,0],
+                                  zoom: 1,
+                                  maxBounds: bounds,
+                                  layers: [],
+                                  worldCopyJump: false,
+                                  crs: L.CRS.EPSG3857
+                                 });
+            
+        
+    
+            var tile_layer_c2d25a985a2a47418d2e3cb4347273da = L.tileLayer(
+                'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+                {
+  "attribution": null,
+  "detectRetina": false,
+  "maxZoom": 18,
+  "minZoom": 1,
+  "noWrap": false,
+  "subdomains": "abc"
+}
+                ).addTo(map_8b3de9a0c5b94c73a3930069e3ac38e6);
+        
+    
+            var feature_group_1f7f13b9bbe44d85bfc5aaf5eb3b80d4 = L.featureGroup(
+                ).addTo(map_8b3de9a0c5b94c73a3930069e3ac38e6);
+        
+    
+
+            var marker_972ba772fc394737aa9ff559c853ec2f = L.marker(
+                [31.024859999999997,-100.97829],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_1f7f13b9bbe44d85bfc5aaf5eb3b80d4);
+            
+    
+            var popup_c12fa02f538744759712e490093057b4 = L.popup({maxWidth: '300'});
+
+            
+                var html_9ca7895ff1ca45929e2e8c3227e6f4df = $('<div id="html_9ca7895ff1ca45929e2e8c3227e6f4df" style="width: 100.0%; height: 100.0%;">Oil well</div>')[0];
+                popup_c12fa02f538744759712e490093057b4.setContent(html_9ca7895ff1ca45929e2e8c3227e6f4df);
+            
+
+            marker_972ba772fc394737aa9ff559c853ec2f.bindPopup(popup_c12fa02f538744759712e490093057b4);
+
+            
+        
+    
+
+            var marker_a3e8acf12edb4b099e2dfd43b6a3edfb = L.marker(
+                [31.036579999999965,-101.79046999999994],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_1f7f13b9bbe44d85bfc5aaf5eb3b80d4);
+            
+    
+            var popup_73e5d32daa224f219cf623307521a057 = L.popup({maxWidth: '300'});
+
+            
+                var html_978b89b66ec9461fba1a95b4ab054477 = $('<div id="html_978b89b66ec9461fba1a95b4ab054477" style="width: 100.0%; height: 100.0%;">Oil well</div>')[0];
+                popup_73e5d32daa224f219cf623307521a057.setContent(html_978b89b66ec9461fba1a95b4ab054477);
+            
+
+            marker_a3e8acf12edb4b099e2dfd43b6a3edfb.bindPopup(popup_73e5d32daa224f219cf623307521a057);
+
+            
+        
+    
+
+            var marker_8c7df78b56684f13b0aa39a4891743b0 = L.marker(
+                [31.117639999999977,-101.16150000000009],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_1f7f13b9bbe44d85bfc5aaf5eb3b80d4);
+            
+    
+            var popup_abfe19dd22e24b91a81a8f164a4ba2ea = L.popup({maxWidth: '300'});
+
+            
+                var html_1e51a2c304c34d778285fca436d6596f = $('<div id="html_1e51a2c304c34d778285fca436d6596f" style="width: 100.0%; height: 100.0%;">Oil well</div>')[0];
+                popup_abfe19dd22e24b91a81a8f164a4ba2ea.setContent(html_1e51a2c304c34d778285fca436d6596f);
+            
+
+            marker_8c7df78b56684f13b0aa39a4891743b0.bindPopup(popup_abfe19dd22e24b91a81a8f164a4ba2ea);
+
+            
+        
+    
+
+            var marker_ee6f42fe52754585bafe08f7eb59e35d = L.marker(
+                [31.060160000000003,-101.22594000000008],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_1f7f13b9bbe44d85bfc5aaf5eb3b80d4);
+            
+    
+            var popup_b10d193a8d8e45caa13596198683805e = L.popup({maxWidth: '300'});
+
+            
+                var html_34e2f0ccc40049e1831c3b43464eff47 = $('<div id="html_34e2f0ccc40049e1831c3b43464eff47" style="width: 100.0%; height: 100.0%;">Oil well</div>')[0];
+                popup_b10d193a8d8e45caa13596198683805e.setContent(html_34e2f0ccc40049e1831c3b43464eff47);
+            
+
+            marker_ee6f42fe52754585bafe08f7eb59e35d.bindPopup(popup_b10d193a8d8e45caa13596198683805e);
+
+            
+        
+    
+
+            var marker_615ed2f278464df6bba8a613e3531009 = L.marker(
+                [31.119639999999944,-101.10948000000006],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_1f7f13b9bbe44d85bfc5aaf5eb3b80d4);
+            
+    
+            var popup_d55d527f6e6b47f88a894090f0186e2d = L.popup({maxWidth: '300'});
+
+            
+                var html_a8e7ac21fef24846a617bb23688a4b86 = $('<div id="html_a8e7ac21fef24846a617bb23688a4b86" style="width: 100.0%; height: 100.0%;">Oil well</div>')[0];
+                popup_d55d527f6e6b47f88a894090f0186e2d.setContent(html_a8e7ac21fef24846a617bb23688a4b86);
+            
+
+            marker_615ed2f278464df6bba8a613e3531009.bindPopup(popup_d55d527f6e6b47f88a894090f0186e2d);
+
+            
+        
+    
+
+            var marker_24ed3c69ea954781b086c5f1d6c134b2 = L.marker(
+                [31.396559999999965,-101.17403000000006],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_1f7f13b9bbe44d85bfc5aaf5eb3b80d4);
+            
+    
+            var popup_667e8131145a484eafbae977eecd7ecc = L.popup({maxWidth: '300'});
+
+            
+                var html_7306ee68aca84b499e3398ecae25f8cc = $('<div id="html_7306ee68aca84b499e3398ecae25f8cc" style="width: 100.0%; height: 100.0%;">Oil well</div>')[0];
+                popup_667e8131145a484eafbae977eecd7ecc.setContent(html_7306ee68aca84b499e3398ecae25f8cc);
+            
+
+            marker_24ed3c69ea954781b086c5f1d6c134b2.bindPopup(popup_667e8131145a484eafbae977eecd7ecc);
+
+            
+        
+    
+
+            var marker_4dc63001a49e432e92a7dd9faac84681 = L.marker(
+                [31.395929999999968,-101.17373000000008],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_1f7f13b9bbe44d85bfc5aaf5eb3b80d4);
+            
+    
+            var popup_3bbc13c2ea5549c0bdae3cf74dd423cb = L.popup({maxWidth: '300'});
+
+            
+                var html_47af253036d54989ad01d84a89920075 = $('<div id="html_47af253036d54989ad01d84a89920075" style="width: 100.0%; height: 100.0%;">Oil well</div>')[0];
+                popup_3bbc13c2ea5549c0bdae3cf74dd423cb.setContent(html_47af253036d54989ad01d84a89920075);
+            
+
+            marker_4dc63001a49e432e92a7dd9faac84681.bindPopup(popup_3bbc13c2ea5549c0bdae3cf74dd423cb);
+
+            
+        
+    
+
+            var marker_f34dc0ffc25c4a20a7a83d10488455e9 = L.marker(
+                [31.173379999999966,-101.03639000000014],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_1f7f13b9bbe44d85bfc5aaf5eb3b80d4);
+            
+    
+            var popup_28385b0ce1ce42eaba522f3526afb5b3 = L.popup({maxWidth: '300'});
+
+            
+                var html_5481456f008c4e71a0cecfb761dd7aed = $('<div id="html_5481456f008c4e71a0cecfb761dd7aed" style="width: 100.0%; height: 100.0%;">Oil well</div>')[0];
+                popup_28385b0ce1ce42eaba522f3526afb5b3.setContent(html_5481456f008c4e71a0cecfb761dd7aed);
+            
+
+            marker_f34dc0ffc25c4a20a7a83d10488455e9.bindPopup(popup_28385b0ce1ce42eaba522f3526afb5b3);
+
+            
+        
+    
+
+            var marker_b0857943f89242e49ca44c043e1bbd63 = L.marker(
+                [31.173530000000024,-101.03421999999985],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_1f7f13b9bbe44d85bfc5aaf5eb3b80d4);
+            
+    
+            var popup_970a197560e94eec8bb77ad47b83ed33 = L.popup({maxWidth: '300'});
+
+            
+                var html_acff7df4dc9046f5a93d74e40195ddf9 = $('<div id="html_acff7df4dc9046f5a93d74e40195ddf9" style="width: 100.0%; height: 100.0%;">Oil well</div>')[0];
+                popup_970a197560e94eec8bb77ad47b83ed33.setContent(html_acff7df4dc9046f5a93d74e40195ddf9);
+            
+
+            marker_b0857943f89242e49ca44c043e1bbd63.bindPopup(popup_970a197560e94eec8bb77ad47b83ed33);
+
+            
+        
+    
+
+            var marker_daeed50aaef9474ba969a6a49449637f = L.marker(
+                [31.174410000000034,-101.24056000000013],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_1f7f13b9bbe44d85bfc5aaf5eb3b80d4);
+            
+    
+            var popup_f714ffb3c9744f42b14847aa4ead6238 = L.popup({maxWidth: '300'});
+
+            
+                var html_4b451f1e00984e3690cca3d85867c1e3 = $('<div id="html_4b451f1e00984e3690cca3d85867c1e3" style="width: 100.0%; height: 100.0%;">Oil well</div>')[0];
+                popup_f714ffb3c9744f42b14847aa4ead6238.setContent(html_4b451f1e00984e3690cca3d85867c1e3);
+            
+
+            marker_daeed50aaef9474ba969a6a49449637f.bindPopup(popup_f714ffb3c9744f42b14847aa4ead6238);
+
+            
+        
+    
+
+            var marker_8ecd3595934a4ba9b778468e907567d7 = L.marker(
+                [31.173230000000025,-101.23850000000016],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_1f7f13b9bbe44d85bfc5aaf5eb3b80d4);
+            
+    
+            var popup_83b5d8ffaff04ecfb4b960cdbd812b1a = L.popup({maxWidth: '300'});
+
+            
+                var html_2d1c5116741a43a6955f910743cbc4a3 = $('<div id="html_2d1c5116741a43a6955f910743cbc4a3" style="width: 100.0%; height: 100.0%;">Oil well</div>')[0];
+                popup_83b5d8ffaff04ecfb4b960cdbd812b1a.setContent(html_2d1c5116741a43a6955f910743cbc4a3);
+            
+
+            marker_8ecd3595934a4ba9b778468e907567d7.bindPopup(popup_83b5d8ffaff04ecfb4b960cdbd812b1a);
+
+            
+        
+    
+
+            var marker_b0699d21e2c34bd9a85d9a1c960d49a9 = L.marker(
+                [31.132669999999976,-101.07657999999996],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_1f7f13b9bbe44d85bfc5aaf5eb3b80d4);
+            
+    
+            var popup_831a69f85bcc4478b2d63e82da5f53f0 = L.popup({maxWidth: '300'});
+
+            
+                var html_74a7b2f8085a40fbad5ed50ca6351a01 = $('<div id="html_74a7b2f8085a40fbad5ed50ca6351a01" style="width: 100.0%; height: 100.0%;">Oil well</div>')[0];
+                popup_831a69f85bcc4478b2d63e82da5f53f0.setContent(html_74a7b2f8085a40fbad5ed50ca6351a01);
+            
+
+            marker_b0699d21e2c34bd9a85d9a1c960d49a9.bindPopup(popup_831a69f85bcc4478b2d63e82da5f53f0);
+
+            
+        
+    
+
+            var marker_dfadd9181e9a409e8152234c43df4703 = L.marker(
+                [31.2147,-100.93409],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_1f7f13b9bbe44d85bfc5aaf5eb3b80d4);
+            
+    
+            var popup_851c3301019a47439faef8be747a3a50 = L.popup({maxWidth: '300'});
+
+            
+                var html_c34c6a36cd4d40f78feaa31cab47f260 = $('<div id="html_c34c6a36cd4d40f78feaa31cab47f260" style="width: 100.0%; height: 100.0%;">Oil well</div>')[0];
+                popup_851c3301019a47439faef8be747a3a50.setContent(html_c34c6a36cd4d40f78feaa31cab47f260);
+            
+
+            marker_dfadd9181e9a409e8152234c43df4703.bindPopup(popup_851c3301019a47439faef8be747a3a50);
+
+            
+        
+    
+
+            var marker_868ebdafb1d840619bc8e40efd3de392 = L.marker(
+                [31.146660000000008,-101.31890999999996],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_1f7f13b9bbe44d85bfc5aaf5eb3b80d4);
+            
+    
+            var popup_615c2d56173a4b7292f42815204630b9 = L.popup({maxWidth: '300'});
+
+            
+                var html_026963a425854a008504ea1957f04350 = $('<div id="html_026963a425854a008504ea1957f04350" style="width: 100.0%; height: 100.0%;">Oil well</div>')[0];
+                popup_615c2d56173a4b7292f42815204630b9.setContent(html_026963a425854a008504ea1957f04350);
+            
+
+            marker_868ebdafb1d840619bc8e40efd3de392.bindPopup(popup_615c2d56173a4b7292f42815204630b9);
+
+            
+        
+    
+
+            var marker_7fd259db2a0f414a9862ce96727c99a5 = L.marker(
+                [31.164299999999965,-101.70096999999993],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_1f7f13b9bbe44d85bfc5aaf5eb3b80d4);
+            
+    
+            var popup_b0edca9e07364b7592a77f1d5b0eb39d = L.popup({maxWidth: '300'});
+
+            
+                var html_d88adb2d9f2f4ba5ad835a4b8826489d = $('<div id="html_d88adb2d9f2f4ba5ad835a4b8826489d" style="width: 100.0%; height: 100.0%;">Oil well</div>')[0];
+                popup_b0edca9e07364b7592a77f1d5b0eb39d.setContent(html_d88adb2d9f2f4ba5ad835a4b8826489d);
+            
+
+            marker_7fd259db2a0f414a9862ce96727c99a5.bindPopup(popup_b0edca9e07364b7592a77f1d5b0eb39d);
+
+            
+        
+    
+
+            var marker_51a916630d0f4d73bdf22c3227b25252 = L.marker(
+                [31.164199999999987,-101.70214000000007],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_1f7f13b9bbe44d85bfc5aaf5eb3b80d4);
+            
+    
+            var popup_23a830529bd24288ad9445b3b65d4d73 = L.popup({maxWidth: '300'});
+
+            
+                var html_d5ccba02be9e427ab477aa1e45dc1a32 = $('<div id="html_d5ccba02be9e427ab477aa1e45dc1a32" style="width: 100.0%; height: 100.0%;">Oil well</div>')[0];
+                popup_23a830529bd24288ad9445b3b65d4d73.setContent(html_d5ccba02be9e427ab477aa1e45dc1a32);
+            
+
+            marker_51a916630d0f4d73bdf22c3227b25252.bindPopup(popup_23a830529bd24288ad9445b3b65d4d73);
+
+            
+        
+    
+
+            var marker_1d6e5d7e3f8c4b47acd653fc0dfc2459 = L.marker(
+                [31.14684999999999,-101.28652999999996],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_1f7f13b9bbe44d85bfc5aaf5eb3b80d4);
+            
+    
+            var popup_5c5e96494fcd40728f9e515d2781c8d9 = L.popup({maxWidth: '300'});
+
+            
+                var html_44b452610f3248cfa218472b2e687f97 = $('<div id="html_44b452610f3248cfa218472b2e687f97" style="width: 100.0%; height: 100.0%;">Oil well</div>')[0];
+                popup_5c5e96494fcd40728f9e515d2781c8d9.setContent(html_44b452610f3248cfa218472b2e687f97);
+            
+
+            marker_1d6e5d7e3f8c4b47acd653fc0dfc2459.bindPopup(popup_5c5e96494fcd40728f9e515d2781c8d9);
+
+            
+        
+    
+
+            var marker_9cb309dabb244fb7b190a023b92ad56b = L.marker(
+                [31.043850000000013,-100.95646000000009],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_1f7f13b9bbe44d85bfc5aaf5eb3b80d4);
+            
+    
+            var popup_5dfd9601b5b44838b4957cc6086daa45 = L.popup({maxWidth: '300'});
+
+            
+                var html_c01d2a2e8dc647268a48fb711778a947 = $('<div id="html_c01d2a2e8dc647268a48fb711778a947" style="width: 100.0%; height: 100.0%;">Oil well</div>')[0];
+                popup_5dfd9601b5b44838b4957cc6086daa45.setContent(html_c01d2a2e8dc647268a48fb711778a947);
+            
+
+            marker_9cb309dabb244fb7b190a023b92ad56b.bindPopup(popup_5dfd9601b5b44838b4957cc6086daa45);
+
+            
+        
+    
+
+            var marker_947bee8de9314944a850e8674b9a3b84 = L.marker(
+                [30.81300000000002,-100.88565999999996],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_1f7f13b9bbe44d85bfc5aaf5eb3b80d4);
+            
+    
+            var popup_cda2499f26dd4db59058b5fc8df78cc7 = L.popup({maxWidth: '300'});
+
+            
+                var html_fff37053d1594377b55dd06613e5cd77 = $('<div id="html_fff37053d1594377b55dd06613e5cd77" style="width: 100.0%; height: 100.0%;">Oil well</div>')[0];
+                popup_cda2499f26dd4db59058b5fc8df78cc7.setContent(html_fff37053d1594377b55dd06613e5cd77);
+            
+
+            marker_947bee8de9314944a850e8674b9a3b84.bindPopup(popup_cda2499f26dd4db59058b5fc8df78cc7);
+
+            
+        
+    
+
+            var marker_58ed6d1dcd2e44438067dc0b4b5dd2fa = L.marker(
+                [30.78085000000002,-100.88441000000006],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_1f7f13b9bbe44d85bfc5aaf5eb3b80d4);
+            
+    
+            var popup_420ba4e83adb4a4cbe0538fddd583f81 = L.popup({maxWidth: '300'});
+
+            
+                var html_ba73ff6f3a364f14a2200e67de1b1ae8 = $('<div id="html_ba73ff6f3a364f14a2200e67de1b1ae8" style="width: 100.0%; height: 100.0%;">Oil well</div>')[0];
+                popup_420ba4e83adb4a4cbe0538fddd583f81.setContent(html_ba73ff6f3a364f14a2200e67de1b1ae8);
+            
+
+            marker_58ed6d1dcd2e44438067dc0b4b5dd2fa.bindPopup(popup_420ba4e83adb4a4cbe0538fddd583f81);
+
+            
+        
+</script>
